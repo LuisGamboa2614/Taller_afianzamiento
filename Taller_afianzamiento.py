@@ -44,14 +44,20 @@ def f4():
             break
 
 
-def f6():
-    print("Números impares del 1 al 1000:")
-    a = 0
-    while a < 1000:
-        if a % 2 != 0:
-            print(a)
-        a = a + 1
-
+def f6(): 
+    a=0 
+    b=0 
+    while a<1000: 
+        b=a%2 
+        if b!=0: 
+            print(a) 
+        a=a+1 
+    c=0 
+    while c<1000: 
+        b=a%2 
+        if b!=0:
+            print(c) 
+        c=c+1
 
 def f7():
     a = int(input("Escriba un número mayor o igual a 2: "))
@@ -98,7 +104,7 @@ def f11():
 def main():
     print("=== MENÚ DE FUNCIONES ===")
     print("1. Cuadrado de un número")
-    print("2. Secuencia de Collatz")
+    print("2. Secuencia")
     print("3. Año en que B supera a A")
     print("4. Serie con potencias")
     print("6. Números impares hasta 1000")
